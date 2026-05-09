@@ -2,18 +2,321 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Three Dials (Swiss)</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script type="module" crossorigin src="/assets/index-CYAFKsgH.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BDBK9_Vh.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three Dials | The Revenue Is Already in Your Data</title>
+    <meta
+      name="description"
+      content="Three Dials helps founders, CEOs, and operators surface the revenue opportunity inside their data, cut manual work, and build practical systems."
+    />
+    <meta property="og:title" content="Three Dials | The Revenue Is Already in Your Data" />
+    <meta
+      property="og:description"
+      content="Find the story. Build the system. Improve the business."
+    />
+    <meta property="og:image" content="opengraph.jpg" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css?v=20260508-13" />
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <script src="./script.js?v=20260508-13" defer></script>
   </head>
   <body>
-    <div id="root"></div>
+    <header class="site-header" data-header>
+      <a class="brand" href="/" aria-label="Three Dials home">
+        <span class="dial-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" focusable="false">
+            <circle class="dial-ring" cx="32" cy="32" r="26"></circle>
+            <circle cx="23" cy="23" r="5.5"></circle>
+            <circle cx="39" cy="23" r="5.5"></circle>
+            <circle cx="23" cy="39" r="5.5"></circle>
+          </svg>
+        </span>
+        <span>Three Dials</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#diagnostic">Diagnostic</a>
+        <a href="#implementation">Implementation</a>
+        <a href="#advisory">Advisory</a>
+        <button class="button button-small" type="button" data-calendly>Book a call</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">Find the Story. Build the System. Improve the Business.</p>
+          <h1>The revenue is already in your data. The diagnostic finds it.</h1>
+          <p class="hero-subhead">
+            Three Dials helps founders, CEOs, and operators surface the revenue opportunity
+            inside their data, cut the manual work, and build practical systems that make
+            the business easier to run. Twenty-five years inside the rooms where getting it
+            wrong wasn't an option.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#diagnostic">See a sample diagnostic</a>
+            <button class="quiet-cta" type="button" data-calendly>Twenty minutes. No deck.</button>
+          </div>
+        </div>
+        <div class="hero-graphic" aria-label="Revenue opportunity surfaced by diagnostic">
+          <div class="graph-note">where the revenue was hiding</div>
+          <svg viewBox="0 0 440 260" role="img">
+            <line x1="34" y1="52" x2="406" y2="52"></line>
+            <line x1="34" y1="108" x2="406" y2="108"></line>
+            <line x1="34" y1="164" x2="406" y2="164"></line>
+            <line x1="34" y1="220" x2="406" y2="220" class="axis"></line>
+            <line x1="232" y1="116" x2="232" y2="220" class="guide"></line>
+            <path d="M34 202 C84 194 132 188 178 172 C194 166 210 158 218 150 C225 120 247 104 262 84 C286 52 326 34 406 12"></path>
+            <circle cx="232" cy="116" r="8" class="point-outer"></circle>
+            <circle cx="232" cy="116" r="3.5" class="point-inner"></circle>
+          </svg>
+          <div class="graph-labels">
+            <span>before</span>
+            <span>diagnostic</span>
+            <span>after</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="credential-strip" aria-label="Three Dials experience">
+        <div class="section-shell">
+          <p>Built from inside the systems where revenue, content, customers, and operations meet</p>
+        </div>
+        <div class="logo-list" aria-label="Organizations Wade has built revenue platforms for">
+          <div>
+            <span>MarketWatch</span>
+            <span>The Wall Street Journal</span>
+            <span>Dow Jones</span>
+            <span>Major League Soccer</span>
+            <span>Sports Illustrated</span>
+            <span>Target</span>
+            <span>TheStreet PRO</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="pattern section-shell">
+        <p class="eyebrow">What I kept seeing</p>
+        <h2>Smart teams. Real data. And decisions that were harder than they needed to be.</h2>
+        <p>
+          Not because people weren't capable. Because the revenue opportunity inside the
+          data wasn't visible, and nobody had built the right system to surface it. That's
+          the problem I built Three Dials to solve.
+        </p>
+      </section>
+
+      <section class="build band">
+        <div class="section-shell">
+          <p class="eyebrow">What we build</p>
+          <h2>Tools, data solutions, and AI workflows that fit how you operate.</h2>
+          <div class="capability-grid">
+            <article>
+              <span>Tools</span>
+              <h3>Built around how you actually run.</h3>
+              <p>
+                Custom internal tools that match the way your business already operates,
+                not how a vendor decided it should. The right answer isn't always a
+                dashboard nobody opens. Sometimes it's an email at 7am. Sometimes it's a
+                Slack alert at the right moment. Sometimes it's a one-page weekly summary.
+                We build the thing that actually gets used.
+              </p>
+            </article>
+            <article>
+              <span>Data solutions</span>
+              <h3>Reporting that tells the real story.</h3>
+              <p>
+                Layers that surface pipeline health, retention signals, and growth rhythms
+                - not vanity metrics that sit unread. The format follows the decision
+                being made: dashboard, weekly email, alert, or scheduled briefing.
+                Whatever fits how you actually work.
+              </p>
+            </article>
+            <article>
+              <span>AI workflows</span>
+              <h3>Hours of manual work, replaced.</h3>
+              <p>
+                Production automations that take repetitive analysis, reporting, and
+                operational tasks off your team's plate. Built on n8n, Claude, and your
+                existing stack. Owned by you, fully documented, extensible by your
+                engineers.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="engagements dark-band" id="diagnostic">
+        <div class="section-shell">
+          <p class="eyebrow">How we work together</p>
+          <h2>Three engagements. All of them ship something.</h2>
+          <div class="engagement-grid">
+            <article>
+              <h3>Diagnostic</h3>
+              <p class="price">$7,500 · 2 weeks</p>
+              <p>
+                We map your revenue stack, surface the highest-leverage opportunities, and
+                ship three quick wins to production by week two.
+              </p>
+              <p class="best-for">
+                Best for: Leaders who suspect the data has more to say than the current
+                reporting shows.
+              </p>
+            </article>
+            <article id="implementation">
+              <h3>Implementation</h3>
+              <p class="price">Fixed scope · 4-12 weeks</p>
+              <p>
+                We design, build, and deploy the systems from your roadmap. Two-week sprints,
+                weekly demos. Working software before the next invoice.
+              </p>
+              <p class="best-for">
+                Best for: Companies who've identified the opportunity and need experienced
+                builders to ship it.
+              </p>
+            </article>
+            <article id="advisory">
+              <h3>Advisory</h3>
+              <p class="price">$5,000/mo · cancel anytime</p>
+              <p>
+                A senior operator on call. Strategic reviews twice a month, build
+                supervision, vendor evaluation, hiring help, architecture reviews.
+              </p>
+              <p class="best-for">
+                Best for: VPs and CROs scaling capability internally who want a sharp
+                outside eye every month.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="automation section-shell">
+        <div>
+          <p class="eyebrow">Also</p>
+          <h2>AI automation builds for teams that need the workflow shipped.</h2>
+          <p>
+            Dedicated engagements for teams that need a focused AI workflow build - n8n
+            agent systems, Claude pipelines, MCP integrations - separate from the
+            diagnostic-led work above.
+          </p>
+          <a href="#contact">Learn more →</a>
+        </div>
+        <div class="automation-panel" aria-label="AI automation workflow example">
+          <span>trigger</span>
+          <span>classify</span>
+          <span>summarize</span>
+          <span>route</span>
+          <strong>weekly revenue brief</strong>
+        </div>
+      </section>
+
+      <section class="products band">
+        <div class="section-shell">
+          <p class="eyebrow">Three Dials also builds</p>
+          <h2>The systems we recommend are the ones we run ourselves.</h2>
+          <p class="intro">
+            Three Dials runs three production products. The architectures we recommend to
+            clients are the same ones we use in-house - which is why they hold up under
+            real load.
+          </p>
+          <div class="product-grid">
+            <article>
+              <div class="product-preview pressflow-preview" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <h3>Pressflow</h3>
+              <p>Content publishing automation, end to end.</p>
+            </article>
+            <article>
+              <div class="product-preview buildscore-preview" aria-hidden="true">
+                <strong>82</strong>
+                <span>build readiness</span>
+              </div>
+              <h3>BuildScore</h3>
+              <p>Build readiness diagnostics for engineering orgs.</p>
+            </article>
+            <article>
+              <div class="product-preview sitemark-preview" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <h3>Sitemark Trials</h3>
+              <p>Structured experiments for clinical growth.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="snapshot section-shell">
+        <p class="eyebrow">Engagement snapshot</p>
+        <div>
+          <h2>Composite diagnostic result from a B2B subscription business.</h2>
+          <p>
+            In 14 days, the diagnostic surfaced retention risk, reporting drag, and
+            expansion signals that were already present in the data but not visible in the
+            weekly operating rhythm.
+          </p>
+        </div>
+        <dl>
+          <div>
+            <dt>$420k</dt>
+            <dd>modeled retention and expansion opportunity</dd>
+          </div>
+          <div>
+            <dt>14 days</dt>
+            <dd>from kickoff to working insight</dd>
+          </div>
+          <div>
+            <dt>3 wins</dt>
+            <dd>shipped into production during the diagnostic</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="closing" id="contact">
+        <div class="section-shell">
+          <p class="eyebrow">Closing the visibility gap</p>
+          <h2>The revenue is already in your data.<br />The diagnostic finds it.</h2>
+          <button class="button button-gold" type="button" data-calendly>Book twenty minutes</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="footer">
+      <div class="section-shell footer-shell">
+        <div>
+          <a class="brand footer-brand" href="/" aria-label="Three Dials home">
+            <span class="dial-mark" aria-hidden="true">
+              <svg viewBox="0 0 64 64" focusable="false">
+                <circle class="dial-ring" cx="32" cy="32" r="26"></circle>
+                <circle cx="23" cy="23" r="5.5"></circle>
+                <circle cx="39" cy="23" r="5.5"></circle>
+                <circle cx="23" cy="39" r="5.5"></circle>
+              </svg>
+            </span>
+            <span>Three Dials</span>
+          </a>
+          <p>Find the story. Build the system. Improve the business.</p>
+        </div>
+        <nav aria-label="Footer navigation">
+          <a href="#diagnostic">Diagnostic</a>
+          <a href="#implementation">Implementation</a>
+          <a href="#advisory">Advisory</a>
+          <button type="button" data-calendly>Book a call</button>
+        </nav>
+        <p class="copyright">Copyright 2026 Three Dials. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
