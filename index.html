@@ -55,10 +55,14 @@
     </header>
 
     <main>
-      <section class="hero section-shell">
+      <section class="hero section-shell" data-hero>
         <div class="hero-copy">
-          <p class="eyebrow">Find the Story. Build the System. Improve the Business.</p>
-          <h1>The revenue is already in your data. The diagnostic finds it.</h1>
+          <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span>Find the story <span class="eyebrow-dot">·</span> Build the system <span class="eyebrow-dot">·</span> Improve the business</p>
+          <h1 class="hero-h1">
+            <span class="line"><span>The revenue is</span></span>
+            <span class="line"><span><em>already</em> in your data.</span></span>
+            <span class="line"><span>The diagnostic finds it.</span></span>
+          </h1>
           <p class="hero-subhead">
             Three Dials helps founders, CEOs, and operators surface the revenue opportunity
             inside their data, cut the manual work, and build practical systems that make
@@ -70,46 +74,55 @@
             <button class="quiet-cta" type="button" data-calendly>Twenty minutes. No deck.</button>
           </div>
         </div>
-        <div class="hero-graphic" aria-label="Revenue opportunity surfaced by diagnostic">
-          <div class="graph-note">where the revenue was hiding</div>
-          <svg viewBox="0 0 440 260" role="img">
-            <line x1="34" y1="52" x2="406" y2="52"></line>
-            <line x1="34" y1="108" x2="406" y2="108"></line>
-            <line x1="34" y1="164" x2="406" y2="164"></line>
-            <line x1="34" y1="220" x2="406" y2="220" class="axis"></line>
-            <line x1="232" y1="116" x2="232" y2="220" class="guide"></line>
-            <path d="M34 202 C84 194 132 188 178 172 C194 166 210 158 218 150 C225 120 247 104 262 84 C286 52 326 34 406 12"></path>
-            <circle cx="232" cy="116" r="8" class="point-outer"></circle>
-            <circle cx="232" cy="116" r="3.5" class="point-inner"></circle>
-          </svg>
-          <div class="graph-labels">
-            <span>before</span>
-            <span>diagnostic</span>
-            <span>after</span>
+        <div class="hero-frame" aria-label="The Three Dials framework">
+          <span class="hero-frame-tag">Three Dials</span>
+          <div class="hero-row">
+            <span class="n">01</span>
+            <span class="hero-row-body">
+              <span class="verb">Find</span>
+              <span class="of">the story</span>
+            </span>
+            <span class="meta">Diagnostic</span>
+          </div>
+          <div class="hero-row">
+            <span class="n">02</span>
+            <span class="hero-row-body">
+              <span class="verb">Build</span>
+              <span class="of">the system</span>
+            </span>
+            <span class="meta">Implementation</span>
+          </div>
+          <div class="hero-row">
+            <span class="n">03</span>
+            <span class="hero-row-body">
+              <span class="verb">Improve</span>
+              <span class="of">the business</span>
+            </span>
+            <span class="meta">Advisory</span>
           </div>
         </div>
       </section>
 
       <section class="credential-strip" aria-label="Three Dials experience">
-        <div class="section-shell">
-          <p>Built from inside the systems where revenue, content, customers, and operations meet</p>
-        </div>
-        <div class="logo-list" aria-label="Organizations Wade has built revenue platforms for">
-          <div>
-            <span>MarketWatch</span>
+        <div class="section-shell credential-shell">
+          <div class="credential-label" style="color: rgb(168, 111, 8)">
+            Built inside the rooms where getting it wrong wasn't an option
+          </div>
+          <div class="logo-list" aria-label="Organizations Wade has built revenue platforms for">
             <span>The Wall Street Journal</span>
+            <span>MarketWatch</span>
             <span>Dow Jones</span>
             <span>Major League Soccer</span>
             <span>Sports Illustrated</span>
-            <span>Target</span>
             <span>TheStreet PRO</span>
+            <span>The Arena Group</span>
           </div>
         </div>
       </section>
 
       <section class="pattern section-shell">
         <p class="eyebrow">What I kept seeing</p>
-        <h2>Smart teams. Real data. And decisions that were harder than they needed to be.</h2>
+        <h2>Smart teams. Real data. And decisions that were harder than they needed&nbsp;to&nbsp;be.</h2>
         <p>
           Not because people weren't capable. Because the revenue opportunity inside the
           data wasn't visible, and nobody had built the right system to surface it. That's
@@ -126,11 +139,9 @@
               <span>Tools</span>
               <h3>Built around how you actually run.</h3>
               <p>
-                Custom internal tools that match the way your business already operates,
-                not how a vendor decided it should. The right answer isn't always a
-                dashboard nobody opens. Sometimes it's an email at 7am. Sometimes it's a
-                Slack alert at the right moment. Sometimes it's a one-page weekly summary.
-                We build the thing that actually gets used.
+                Custom internal tools that match how your business actually runs.
+                Sometimes that's a dashboard. Sometimes it's an email at 7am or a Slack
+                alert at the right moment. We build the thing that gets used.
               </p>
             </article>
             <article>
@@ -211,7 +222,6 @@
             agent systems, Claude pipelines, MCP integrations - separate from the
             diagnostic-led work above.
           </p>
-          <a href="#contact">Learn more →</a>
         </div>
         <div class="automation-panel" aria-label="AI automation workflow example">
           <span>trigger</span>
@@ -259,34 +269,79 @@
       </section>
 
       <section class="snapshot section-shell">
-        <p class="eyebrow">Engagement snapshot</p>
-        <div>
-          <h2>Composite diagnostic result from a B2B subscription business.</h2>
-          <p>
-            In 14 days, the diagnostic surfaced retention risk, reporting drag, and
-            expansion signals that were already present in the data but not visible in the
-            weekly operating rhythm.
-          </p>
+        <p class="eyebrow">Case study · Composite</p>
+        <div class="snapshot-head">
+          <h2>How a B2B subscription business found $420k of revenue already in its data.</h2>
+          <ul class="snapshot-meta">
+            <li><span>Industry</span>B2B SaaS</li>
+            <li><span>Stage</span>Post Series A</li>
+            <li><span>ARR</span>$9M</li>
+            <li><span>Engagement</span>2-week diagnostic</li>
+          </ul>
         </div>
-        <dl>
+
+        <ol class="case-steps">
+          <li>
+            <span class="case-step">01 · The signal</span>
+            <h3>Net retention was eroding faster than the dashboard showed.</h3>
+            <p>
+              The CEO suspected churn was understating the real problem. Expansion was
+              flat. The weekly operating review kept landing on the same three numbers,
+              none of which were the right ones. The data was there. The story wasn't.
+            </p>
+          </li>
+          <li>
+            <span class="case-step">02 · The diagnostic</span>
+            <h3>Two weeks inside the data and the operating rhythm.</h3>
+            <p>
+              We mapped the revenue stack end to end, instrumented churn cohorts against
+              product usage, and sat in on the customer success standup. By day five we
+              had the cohort view that the existing reporting couldn't produce. By day
+              ten we had three quick wins ready to ship.
+            </p>
+          </li>
+          <li>
+            <span class="case-step">03 · What shipped</span>
+            <h3>Three production systems by the end of week two.</h3>
+            <ul class="case-ships">
+              <li>A weekly retention-risk brief delivered to the founders' inbox at 7am Monday.</li>
+              <li>Slack alerts for expansion signals, fired at the moment a CSM could act on them.</li>
+              <li>A one-page operating summary that replaced the dashboard nobody was opening.</li>
+            </ul>
+          </li>
+          <li>
+            <span class="case-step">04 · The outcome</span>
+            <h3>The numbers the team was already paying for, finally surfaced.</h3>
+            <p>
+              The diagnostic ended on day fourteen. The systems stayed. The CEO took the
+              cohort model into the next board meeting. The CRO rebuilt the expansion
+              playbook around the alerts. None of this was new data. It was data that
+              had finally been put in front of someone who could act on it.
+            </p>
+          </li>
+        </ol>
+
+        <dl class="snapshot-kpis">
           <div>
             <dt>$420k</dt>
-            <dd>modeled retention and expansion opportunity</dd>
+            <dd>modeled retention and expansion opportunity surfaced</dd>
           </div>
           <div>
             <dt>14 days</dt>
-            <dd>from kickoff to working insight</dd>
+            <dd>from kickoff to working insight in production</dd>
           </div>
           <div>
-            <dt>3 wins</dt>
-            <dd>shipped into production during the diagnostic</dd>
+            <dt>3 systems</dt>
+            <dd>shipped during the diagnostic, owned by the client</dd>
           </div>
         </dl>
+
+        <p class="snapshot-note">Composite case. Numbers and details combined from multiple engagements; identifying specifics changed.</p>
       </section>
 
       <section class="closing" id="contact">
         <div class="section-shell">
-          <p class="eyebrow">Closing the visibility gap</p>
+          <p class="eyebrow" style="font-size: 17px">Closing the visibility gap</p>
           <h2>The revenue is already in your data.<br />The diagnostic finds it.</h2>
           <button class="button button-gold" type="button" data-calendly>Book twenty minutes</button>
         </div>
