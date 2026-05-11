@@ -489,6 +489,11 @@ p {
   filter: grayscale(1) brightness(0.88) contrast(0.72) opacity(0.48);
 }
 
+.logo-track img.logo-invert {
+  filter: invert(1) grayscale(1) brightness(0.88) contrast(0.72) opacity(0.48);
+  mix-blend-mode: normal;
+}
+
 .logo-track img.logo-light {
   filter: grayscale(1) brightness(0.58) contrast(0.9) opacity(0.68);
 }
@@ -500,6 +505,10 @@ p {
 .logo-track img.logo-heavy:hover,
 .logo-track img.logo-mark:hover {
   filter: grayscale(1) brightness(0.78) contrast(0.8) opacity(0.72);
+}
+
+.logo-track img.logo-invert:hover {
+  filter: invert(1) grayscale(1) brightness(0.78) contrast(0.8) opacity(0.72);
 }
 
 @keyframes logo-scroll {
