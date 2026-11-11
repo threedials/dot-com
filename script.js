@@ -1,16 +1,9 @@
-const calendlyUrl = "https://calendly.com/pressflow/30min";
-
-function openCalendly() {
-  if (window.Calendly && typeof window.Calendly.initPopupWidget === "function") {
-    window.Calendly.initPopupWidget({ url: calendlyUrl });
-    return;
-  }
-
-  window.open(calendlyUrl, "_blank", "noopener,noreferrer");
-}
+const bookingUrl = "https://cal.com/wade-anderson-emuc8i/three-dials";
 
 document.querySelectorAll("[data-calendly]").forEach((button) => {
-  button.addEventListener("click", openCalendly);
+  button.addEventListener("click", () => {
+    window.open(bookingUrl, "_blank", "noopener,noreferrer");
+  });
 });
 
 const header = document.querySelector("[data-header]");
