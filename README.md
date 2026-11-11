@@ -7,8 +7,8 @@ Static website for Three Dials.
 Open the folder in your editor and edit:
 
 - `index.html` for page structure and copy
-- `styles.css` for design
-- `script.js` for the mobile menu and Calendly behavior
+- `september.css` for homepage styling
+- The Cal.com booking links are in `index.html`.
 
 There is no build step. Netlify can publish the repository root directly.
 
@@ -24,7 +24,7 @@ Then visit `http://localhost:4173`.
 
 ```sh
 git status
-git add index.html styles.css script.js README.md
+git add index.html september.css README.md
 git commit -m "Refresh Three Dials website"
 git push origin main
 ```
